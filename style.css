@@ -1,0 +1,44 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body {
+	text-align: center;
+}
+h1 {
+	margin-top: 80px;
+	font-family: system-ui;
+}
+p {
+	text-align: center;
+	margin-top: 10px;
+	font-family: system-ui;
+}
+.controls {
+	margin-top: 20px;
+}
+input {
+    width: 9%;
+    text-align: center;
+	padding: 5px;
+}
+.controls button {
+	margin-left: 10px;
+	padding: 9px;
+	border: none;
+	color: black;
+	width: 9%;
+}
+textarea {
+	margin-top: 27px;
+    width: 41%;
+    padding: 10px;
+    height: 336px;
+    font-family: system-ui;
+    border: none;
+    background-color: rgb(241, 243, 244);
+    resize: vertical;
+}
+textarea:focus {
+	outline: none;
+}
